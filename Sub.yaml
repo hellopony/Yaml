@@ -167,7 +167,7 @@ proxy-groups:
 # 此规则部分没有做防泄露处理，因为弊严重大于利！
 rules:
   #匹配源IP的所有流量走直连，适用于BT/PT流量
-  #- SRC-IP-CIDR,192.168.1.201/32,DIRECT
+  #- SRC-IP-CIDR,192.168.1.201/32,直连
   #- DOMAIN-SUFFIX,google.com,直连
   #- DOMAIN-KEYWORD,google,🚀 默认代理
   #- DOMAIN,google.com,auto
