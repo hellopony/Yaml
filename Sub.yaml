@@ -168,6 +168,7 @@ proxy-groups:
 rules:
   #匹配路由器进程中名称为qbittorrent-ee-nox/源IP的所有流量走直连，适用于BT/PT流量
   #- PROCESS-NAME,qbittorrent-ee-nox,直连
+  #- PROCESS-NAME,aria2c,直连
   #- SRC-IP-CIDR,192.168.1.201/32,直连
   #- DOMAIN-SUFFIX,google.com,直连
   #- DOMAIN-KEYWORD,google,🚀 默认代理
