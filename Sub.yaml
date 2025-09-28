@@ -168,6 +168,8 @@ proxy-groups:
 rules:
   - RULE-SET,private_ip,直连
   - RULE-SET,private_domain,直连
+  - RULE-SET,cn_domain,直连
+  - RULE-SET,cn_ip,直连
   - RULE-SET,ai,🤖 ChatGPT
   - RULE-SET,github_domain,👨🏿‍💻 GitHub
   - RULE-SET,youtube_domain,📹 YouTube
@@ -181,8 +183,6 @@ rules:
   - RULE-SET,google_ip,🍀 Google,no-resolve
   - RULE-SET,netflix_ip,🎥 NETFLIX,no-resolve
   - RULE-SET,geolocation-!cn,🚀 默认代理
-  - RULE-SET,cn_domain,直连
-  - RULE-SET,cn_ip,直连
   - MATCH,🐟 漏网之鱼
 
 # 规则集
