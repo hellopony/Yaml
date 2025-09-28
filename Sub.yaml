@@ -168,6 +168,10 @@ proxy-groups:
 rules:
   #匹配源IP的所有流量走直连，适用于BT/PT流量
   #- SRC-IP-CIDR,192.168.1.201/32,DIRECT
+  #- DOMAIN-SUFFIX,google.com,直连
+  #- DOMAIN-KEYWORD,google,auto
+  #- DOMAIN,google.com,auto
+  #- DOMAIN-SUFFIX,ad.com,REJECT
   - RULE-SET,private_ip,直连
   - RULE-SET,private_domain,直连
   - RULE-SET,cn_domain,直连
